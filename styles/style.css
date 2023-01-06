@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.banner {
+    padding: 216px 230px;
+    text-align: right;
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.failures {
+    margin-top: 200px;
+    display: flex;
+    gap: 150px;
+}
+
+.failure-expression {
+    background-color: #005fac9e;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    padding-right: 30px;
+}
+
+.failure-expression img {
+    width: 30%;
+    position: absolute;
+    top: 900px;
+}
+
+.my-failures {
+    margin-top: 100px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.failure-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+ul li i {
+    color: #005FAC;
+}
+.my-plan-headline{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.my-plans {
+    margin-top: 200px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+.plan-discription {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 16px;
+    color: #737272;
+}
