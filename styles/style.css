@@ -24,7 +24,7 @@ header {
     margin-bottom: 24px;
 }
 
-.banner-discription {
+.banner-discription,.future-discription,.contact {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -40,6 +40,11 @@ header {
     padding: 10px 30px;
     border-radius: 5px;
     border: none;
+}
+.btn-primary:hover{
+    background-color: #85b5dc72;
+    border: 1.5px solid #005FAC ;
+    color: #FFFFFF;
 }
 
 main {
@@ -97,7 +102,9 @@ ul li {
 ul li i {
     color: #005FAC;
 }
-.my-plan-headline{
+
+.my-plan-headline,
+.more-plan-headline {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -105,7 +112,10 @@ ul li i {
     text-align: center;
     margin-bottom: 80px;
 }
-.my-plans {
+
+.my-plans,
+.more-plans,
+.positive-mindset {
     margin-top: 200px;
 }
 
@@ -128,4 +138,83 @@ ul li i {
     line-height: 29px;
     margin-top: 16px;
     color: #737272;
+}
+
+.more-plan-container {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.extra-plan {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.extra-plan:hover {
+    border-radius: 5px;
+    border: 1.5px solid #005FAC;
+    background-color: #9bc7e85b;
+}
+
+.extra-plan .more-plan-name {
+    margin-top: 15px;
+}
+
+.extra-plan .more-box {
+    text-align: center;
+    padding: 75px 30px 30px;
+}
+
+.more-plans button {
+    margin-left: 45%;
+    margin-top: 30px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+}
+
+.more-plans button:hover {
+    border-radius: 5px;
+    border: 1.5px solid #005FAC;
+    background-color: #9bc7e85b;
+    color: #005FAC;
+}
+
+.mindset-header,.subscribe-title,.future-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.positive-mindset{
+    background-image: linear-gradient(to right,#005FAC 10%,#005fac85,#005fac00) , url('../images/watch.png');
+    background-repeat: no-repeat;
+    padding: 60px 65px 60px;
+    margin-bottom: 200px;
+}
+footer{
+    display: flex;
+    gap: 500px;
+    background-color: black;
+    padding: 40px 90px;
+}
+.social{
+    display: flex;
+    gap: 20px; 
+}
+form input{
+    display: block;
+    padding: 20px 40px;
+    background-color: black;
+    margin-bottom: 16px; 
+    border: 1px solid #FFFFFF;  
+    color: white;
+}
+form ::placeholder{
+    color: #FFFFFF;
 }
